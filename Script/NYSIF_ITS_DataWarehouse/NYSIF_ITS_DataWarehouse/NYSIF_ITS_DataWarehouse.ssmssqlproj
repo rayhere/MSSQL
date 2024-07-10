@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="NYSIF_ITS_DataWarehouse">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="RAYMOND-PC\SQL1:RAYMOND-PC\Raymond">
+          <Created>2024-07-10T18:34:58.2431562-04:00</Created>
+          <Type>SQL</Type>
+          <Server>RAYMOND-PC\SQL1</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <TrustServerCertificate>True</TrustServerCertificate>
+          <HostNameInServerCertificate />
+          <EncryptionOption>True</EncryptionOption>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="Insert_sample_data_Claims_table.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:RAYMOND-PC\SQL1:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>RAYMOND-PC\SQL1</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Insert_sample_data_Claims_table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Insert_sample_data_ComplianceInfo_table.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:RAYMOND-PC\SQL1:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>RAYMOND-PC\SQL1</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Insert_sample_data_ComplianceInfo_table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Insert_sample_data_CoverageDetails_table.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:RAYMOND-PC\SQL1:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>RAYMOND-PC\SQL1</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Insert_sample_data_CoverageDetails_table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Insert_sample_data_Employees_table.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:RAYMOND-PC\SQL1:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>RAYMOND-PC\SQL1</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Insert_sample_data_Employees_table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Insert_sample_data_Employers_table.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:RAYMOND-PC\SQL1:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>RAYMOND-PC\SQL1</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Insert_sample_data_Employers_table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ITS_DataWarehouse_Database_Setup.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:RAYMOND-PC\SQL1:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>RAYMOND-PC\SQL1</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>ITS_DataWarehouse_Database_Setup.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>
