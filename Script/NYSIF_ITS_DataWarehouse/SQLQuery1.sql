@@ -1,1 +1,4 @@
-SELECT * FROM Employees;
+USE NYSIFDB;
+GO
+
+SELECT * FROM Employers;

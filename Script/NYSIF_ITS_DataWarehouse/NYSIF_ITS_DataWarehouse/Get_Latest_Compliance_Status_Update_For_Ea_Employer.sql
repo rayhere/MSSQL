@@ -1,5 +1,8 @@
 --Retrieve the latest compliance status update for each employer.
 
+USE NYSIFDB;
+GO
+
 WITH LatestCompliance AS (
     SELECT CI.EmployerID, CI.ComplianceType, CI.ComplianceStatus, CI.ComplianceDate,
            ROW_NUMBER() OVER (PARTITION BY CI.EmployerID ORDER BY CI.ComplianceDate DESC) AS rn
