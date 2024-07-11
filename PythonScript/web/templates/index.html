@@ -1,0 +1,62 @@
+<!-- templates/index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Visualizations</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        a {
+            display: block;
+            padding: 10px;
+            background-color: #f0f0f0;
+            border: 1px solid #ccc;
+            text-decoration: none;
+            color: #333;
+            transition: background-color 0.3s ease;
+        }
+        a:hover {
+            background-color: #e0e0e0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Data Visualizations</h1>
+    <p>Select a visualization:</p>
+    <ul>
+        <li><a href="{{ url_for('show_visualization', script_name='employer_coverage_analysis.py') }}">Employer Coverage Analysis</a></li>
+        <li><a href="{{ url_for('show_visualization', script_name='active_employers_compliance_status.py') }}">Active Employers Compliance Status</a></li>
+        <li><a href="{{ url_for('show_visualization', script_name='pending_claims_analysis.py') }}">Pending Claims Analysis</a></li>
+        <li><a href="{{ url_for('show_visualization', script_name='update_employee_information.py') }}">Update Employee Information</a></li>
+        <li><a href="{{ url_for('show_visualization', script_name='latest_compliance_status.py') }}">Latest Compliance Status</a></li>
+        <li><a href="{{ url_for('show_visualization', script_name='delete_inactive_employers.py') }}">Delete Inactive Employers</a></li>
+        <li><a href="{{ url_for('show_visualization', script_name='predictive_analysis_with_random_forest.py') }}">Predictive Analysis with Random Forest</a></li>
+        <li><a href="{{ url_for('show_visualization', script_name='employee_count_visualization.py') }}">Employee Count Visualization</a></li>
+        <li><a href="{{ url_for('show_visualization', script_name='claims_resolution_time_distribution.py') }}">Claims Resolution Time Distribution</a></li>
+        <li><a href="{{ url_for('show_visualization', script_name='compliance_status_over_time_analysis.py') }}">Compliance Status Over Time Analysis</a></li>
+        <li><a href="{{ url_for('show_visualization', script_name='coverage_amount_distribution.py') }}">Coverage Amount Distribution</a></li>
+        <li><a href="{{ url_for('show_visualization', script_name='employee_age_distribution.py') }}">Employee Age Distribution</a></li>
+        <li><a href="{{ url_for('show_visualization', script_name='claims_description_distribution.py') }}">Claims Description Distribution</a></li>
+        <li><a href="{{ url_for('show_visualization', script_name='compliance_type_distribution.py') }}">Compliance Type Distribution</a></li>
+    </ul>
+</body>
+</html>
