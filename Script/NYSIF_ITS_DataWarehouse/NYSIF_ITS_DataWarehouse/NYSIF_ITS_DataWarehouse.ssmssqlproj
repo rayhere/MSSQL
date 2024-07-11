@@ -22,6 +22,84 @@
     </LogicalFolder>
     <LogicalFolder Name="Queries" Type="0" Sorted="true">
       <Items>
+        <FileNode Name="Create_Database_Using_Query.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:RAYMOND-PC\SQL1:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>RAYMOND-PC\SQL1</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Create_Database_Using_Query.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Delete_Inactive_Employers_and_Related_Data.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:RAYMOND-PC\SQL1:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>RAYMOND-PC\SQL1</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Delete_Inactive_Employers_and_Related_Data.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Get_All_Active_Employers_and_Compliance_Status.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:RAYMOND-PC\SQL1:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>RAYMOND-PC\SQL1</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Get_All_Active_Employers_and_Compliance_Status.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Get_Basic_Info_About_Employees.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:RAYMOND-PC\SQL1:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>RAYMOND-PC\SQL1</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Get_Basic_Info_About_Employees.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Get_Employees_with_Pending_Claims_Along_with_Employers.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:RAYMOND-PC\SQL1:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>RAYMOND-PC\SQL1</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Get_Employees_with_Pending_Claims_Along_with_Employers.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Get_Latest_Compliance_Status_Update_For_Ea_Employer.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:RAYMOND-PC\SQL1:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>RAYMOND-PC\SQL1</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Get_Latest_Compliance_Status_Update_For_Ea_Employer.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Get_Summary_Of_Claims_About_Employer.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:RAYMOND-PC\SQL1:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>RAYMOND-PC\SQL1</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Get_Summary_Of_Claims_About_Employer.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Get_Total_Coverage_Amount_For_Ea_Employer_B_Insurance_Coverage.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:RAYMOND-PC\SQL1:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>RAYMOND-PC\SQL1</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Get_Total_Coverage_Amount_For_Ea_Employer_B_Insurance_Coverage.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Insert_additional_data_Claims_table.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:RAYMOND-PC\SQL1:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>RAYMOND-PC\SQL1</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Insert_additional_data_Claims_table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Insert_additional_data_ComplianceInfo_table.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:RAYMOND-PC\SQL1:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>RAYMOND-PC\SQL1</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Insert_additional_data_ComplianceInfo_table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Insert_additional_data_CoverageDetails_table.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:RAYMOND-PC\SQL1:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>RAYMOND-PC\SQL1</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Insert_additional_data_CoverageDetails_table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Insert_additional_data_Employees_table.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:RAYMOND-PC\SQL1:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>RAYMOND-PC\SQL1</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Insert_additional_data_Employees_table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Insert_additional_data_Employers_table.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:RAYMOND-PC\SQL1:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>RAYMOND-PC\SQL1</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Insert_additional_data_Employers_table.sql</FullPath>
+        </FileNode>
         <FileNode Name="Insert_sample_data_Claims_table.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:RAYMOND-PC\SQL1:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>RAYMOND-PC\SQL1</AssociatedConnSrvName>
@@ -57,6 +135,18 @@
           <AssociatedConnSrvName>RAYMOND-PC\SQL1</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>ITS_DataWarehouse_Database_Setup.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Remove_Database_Using_Query.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:RAYMOND-PC\SQL1:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>RAYMOND-PC\SQL1</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Remove_Database_Using_Query.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Update_Job_Title_For_Employee_BasedOn_EmployeeID.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:RAYMOND-PC\SQL1:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>RAYMOND-PC\SQL1</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Update_Job_Title_For_Employee_BasedOn_EmployeeID.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>

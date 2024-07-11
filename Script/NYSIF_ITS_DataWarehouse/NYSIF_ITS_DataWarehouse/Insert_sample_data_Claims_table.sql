@@ -1,3 +1,6 @@
+USE NYSIFDB;
+GO
+
 -- Insert sample data into Claims table
 INSERT INTO Claims (ClaimID, EmployerID, EmployeeID, ClaimDate, ClaimDescription, ClaimStatus, ResolutionDate)
 VALUES

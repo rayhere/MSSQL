@@ -1,3 +1,6 @@
+USE NYSIFDB;
+GO
+
 -- Insert sample data into CoverageDetails table
 INSERT INTO CoverageDetails (CoverageID, EmployerID, CoverageType, CoverageAmount, CoverageStartDate, CoverageEndDate)
 VALUES

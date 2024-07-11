@@ -1,3 +1,6 @@
+USE NYSIFDB;
+GO
+
 -- Insert sample data into ComplianceInfo table
 INSERT INTO ComplianceInfo (ComplianceID, EmployerID, ComplianceType, ComplianceStatus, ComplianceDate)
 VALUES

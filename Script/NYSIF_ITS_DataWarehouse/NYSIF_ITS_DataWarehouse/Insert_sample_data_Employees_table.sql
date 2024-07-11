@@ -1,3 +1,6 @@
+USE NYSIFDB;
+GO
+
 -- Insert sample data into Employees table
 INSERT INTO Employees (EmployeeID, EmployerID, FirstName, LastName, DateOfBirth, SSN, JobTitle, Department, IsActive)
 VALUES
